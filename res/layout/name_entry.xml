@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_vertical"
+	android:background="#5D4406"
+    android:orientation="vertical">
+	<TextView
+		android:id="@+id/edit"
+		android:text="Tiles"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:textSize="30sp"
+		android:textStyle="bold"
+		/>
+    <TextView
+		android:id="@+id/edit2"
+		android:text="Created by Ej Lungay!"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:textSize="20sp"
+	/>
+    <TextView
+		android:id="@+id/edit3"
+		android:text="© ESF Corporarion"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:textSize="15sp"
+	/>
+</LinearLayout>
